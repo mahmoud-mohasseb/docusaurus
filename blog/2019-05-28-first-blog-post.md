@@ -9,6 +9,6 @@ authors:
 tags: [hola, docusaurus]
 ---
 
-[Boostnote](https://github.com/BoostIO/Boostnote "This is Boostnote's repository added by MAHMOUD AHMED MOHASSEB").
+[MAHMOUD-AHMED](https://github.com/BoostIO/Boostnote "This is Boostnote's repository added by MAHMOUD AHMED MOHASSEB").
 
 
