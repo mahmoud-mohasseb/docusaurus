@@ -25,10 +25,6 @@ The blog supports tags as well!
 **And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
 
 
----
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
----
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 
