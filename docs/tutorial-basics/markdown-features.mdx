@@ -124,7 +124,7 @@ This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 
-This is <OpenWindow color="red">open google</Highlight> !
+This is <OpenWindow color="red" url="www.google.com">open google</OpenWindow>
 ```
 
 export const Highlight = ({children, color}) => (
@@ -161,22 +161,21 @@ export const OpenWindow =({children,color,url})=>(
 </span>
 )
 ```
-export const OpenWindow =({children,color,url})=>(
-<span
-      style={{
+export const OpenWindow = ({children, color, url}) => (
+  <span
+    style={{
       backgroundColor: color,
       borderRadius: '20px',
       color: '#fff',
       padding: '10px',
       cursor: 'pointer',
     }}
-    onClick={() => {
+     onClick={() => {
       window.open(url);
     }}>
-      
 {children}
-
-</span>
+  </span>
+);
 
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
