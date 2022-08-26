@@ -4,7 +4,7 @@ sidebar_position: 6
 
 
 ---
-add schedule: 6
+add schedule: 3
 ---
 
 # Congratulations!
