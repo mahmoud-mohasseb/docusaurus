@@ -1,5 +1,5 @@
 backend:
-  name: github-gateway
+  name: github
   branch: main 
   repo: https://github.com/mahmoud-mohasseb/docusaurus
 
